@@ -4,7 +4,8 @@ let countMovies = prompt('Сколько фильмов вы уже посмот
 console.log(countMovies);
 
 
-let nameMovies = {};
+let moviesTitles = {};
+let actors = {};
 
 let personalMovieDB = {
     count: countMovies,
